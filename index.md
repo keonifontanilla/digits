@@ -23,7 +23,8 @@ Digits is an application that allows users to:
   </li>
 </ol>
 
-<h2>User Interface Walkthrough</h2> <br/>
+<h2>User Interface Walkthrough</h2>
+
 **Landing page**<br/>
 Provides an introduction on the features of Digits. You can login as an existing user or sign
 up as a new user. After logging in, you will see the home page with list contact and add
