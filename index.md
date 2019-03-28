@@ -16,10 +16,14 @@ Digits is an application that allows users to:
     <pre>
       meteor npm install
     </pre>
+    Then run the app with 
+    <pre>
+      meteor npm run start
+    </pre>
   </li>
 </ol>
 
-###User Interface Walkthrough <br/>
+<h2>User Interface Walkthrough</h2> <br/>
 **Landing page**<br/>
 Provides an introduction on the features of Digits. You can login as an existing user or sign
 up as a new user. After logging in, you will see the home page with list contact and add
