@@ -12,14 +12,44 @@ Digits is an application that allows users to:
   <li>Install <a href="https://www.meteor.com/install">Meteor.</a></li>
   <li><a href="https://github.com/keonifontanilla/digits">Download a copy of Digits.</a> 
   Digits is a private repo so you must ask for permission to gain access.</li>
-  <li><pre>
-    meteor npm install
-  </pre></li>
+  <li> Change directory into the app directory and install the required libaries with
+    <pre>
+      meteor npm install
+    </pre>
+  </li>
 </ol>
 
+###User Interface Walkthrough
+**Landing page**
+
+Provides an introduction on the features of Digits. You can login as an existing user or sign
+up as a new user. After logging in, you will see the home page with list contact and add
+contact in the Navbar as well as your user name.
+
 <img src="doc/landing2.png">
+
+**Add contact**
+Clicking on the add contact link brings up a page that allows the user to add a new contact.
+
 <img src="doc/addcontacts.png">
+
+**List contact**
+
+Clicking on the list contact list brings up a page that lists all the contacts associated
+with the user logged in. This page also allows the user to add timestamped notes to each
+contact.
+
 <img src="doc/listcontacts.png">
+
+**Edit contact**
+
+From the list contact page the user is able to click the "Edit" link associated with any 
+contact to bring up a page that allows contact details to be edited.
+
 <img src="doc/editcontacts.png">
+
+There is an admin page accessible only by a user with access to an Admin role. A special link
+on the Navbar named "Admin" brings up a page with all contacts associated with all users.
+
 <img src="doc/admin.png">
 
