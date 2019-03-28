@@ -19,35 +19,33 @@ Digits is an application that allows users to:
   </li>
 </ol>
 
-###User Interface Walkthrough
-**Landing page**
-
+###User Interface Walkthrough <br/>
+**Landing page**<br/>
 Provides an introduction on the features of Digits. You can login as an existing user or sign
 up as a new user. After logging in, you will see the home page with list contact and add
 contact in the Navbar as well as your user name.
 
 <img src="doc/landing2.png">
 
-**Add contact**
+**Add contact**<br/>
 Clicking on the add contact link brings up a page that allows the user to add a new contact.
 
 <img src="doc/addcontacts.png">
 
-**List contact**
-
+**List contact**<br/>
 Clicking on the list contact list brings up a page that lists all the contacts associated
 with the user logged in. This page also allows the user to add timestamped notes to each
 contact.
 
 <img src="doc/listcontacts.png">
 
-**Edit contact**
-
+**Edit contact**<br/>
 From the list contact page the user is able to click the "Edit" link associated with any 
 contact to bring up a page that allows contact details to be edited.
 
 <img src="doc/editcontacts.png">
 
+**Admin mode**<br/>
 There is an admin page accessible only by a user with access to an Admin role. A special link
 on the Navbar named "Admin" brings up a page with all contacts associated with all users.
 
